@@ -22,4 +22,3 @@ You can find a longer list in my [Linkbasket](https://linkbasket.xyz/ashish) .
 
 - [The Blockchain Man](https://taylorpearson.me/the-blockchain-man/)
 
-### software

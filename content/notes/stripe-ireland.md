@@ -1,14 +1,7 @@
 ---
-title: Could Stripe have been started in Ireland?
+title: Howl
 date: 2023-01-23
-urlTitle: stripe-in-ireland?
+urlTitle: howl-stanza-1
 ---
 
-I’m sometimes asked whether Stripe could have been started in Ireland. It’s impossible to really know the counterfactual, but I suspect not.
-Stripe wasn’t easy to get off the ground. It required convincing banks to work with us, and to take a bet on an unproven startup. I actually spoke to some banks in Ireland when we were starting out, and it was pretty clear that getting them to work with us would have been a very tough battle. I doubt we’d have been able to pull it off.
-But I’m not sure that asking whether *Stripe* could have been started in Ireland is the right question. Most technology start-ups don’t have to convince banks to work with them. The interesting question is probably “how hard is to start a successful start-up in Ireland compared to doing so in Silicon Valley?” (I’m not claiming that Stripe itself is yet successful—it’s still very early days.)
-The answer is almost definitely “substantially harder”. Among the reasons:
-* While improving, the investment climate still isn’t very strong. There are far more investors in the US, particularly once you look beyond the seed stage. More importantly, all investors aren’t created equal, and the investors a start-up is likely to want are much more likely to be in the US. It still makes sense for most Irish start-ups to raise money outside Ireland, and over the last few years, it seems that the most notable technology start-ups with Irish founders have chosen this path.
-* The talent pool here is much smaller than that of Silicon Valley. The single most important aspect of Silicon Valley is that it’s where many great people choose to live. Stripe’s employees come from Honduras, Kenya, India, Sweden, Canada, Austria, and more—but they’ve all chosen to live in Silicon Valley. Because Ireland has fewer of these immigrants, Irish start-ups are forced to either hire from a much more limited group, or to try to convince people to move here. (A third option is to have a geographically distributed team from the start; this route is also quite tough.)
-* There aren’t many acquisitions happening, reducing the expected outcome of a start-up. In Silicon Valley, a failed start-up with good founders will often be bought by one of the tech giants; In Ireland, that same start-up is likely to simply fail. This matters not only because founders are less likely to want to start companies, but also because it’s harder to attract capital and to convince employees to join.
-Despite these issues, I’m struck by how things seem to be improving every time I come back to Ireland.  [Dogpatch Labs](http://dogpatchlabs.com/category/dpl-dublin/)  recently opened in Dublin, and Eamon Leonard has been organizing a successful  [tech events series](http://pubstandards.ie/) . Conferences like the  [Web Summit](http://www.websummit.net/) ,  [f.ounders](http://f.ounders.com/) ,  [FunConf](http://2012.funconf.com/) , and  [Úll](http://2012.ull.ie/)  have substantially increased Dublin’s profile. Thanks to firms like Atomico, Accel, Index, DST, and others, the European investment scene generally looks much better than it did five years ago. Early stage tech companies like Hubspot and Zendesk have opened offices in Dublin. In general, things appear to be moving in the right direction. Given its size, Dublin compares surprisingly favorably to Berlin or London as a tech hub.
+I saw the best minds of my generation destroyed by madness.
