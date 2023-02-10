@@ -1,17 +1,12 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "collison"
+title = "Gapat"
 pluralizelisttitles = false
 
 [params]
 relativeURLs = true
 contentdir = "content"
 mobileFriendly = true
-fontFamily = "Helvetica"
-fontLink = "https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Vesper+Libre:wght@400;500;700&display=swap"
-themeColor = "#e30f00"
-specialColor = "darkblue"
-
 
 
 [menu]
