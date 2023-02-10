@@ -1,6 +1,7 @@
 ---
 title: "about"
 showTitle: false
+description: About me.
 ---
 
 cultivating attention, taste, and sensemaking 

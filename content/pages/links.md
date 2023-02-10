@@ -1,6 +1,7 @@
 ---
 title: "links"
 showTitle: false
+description: A collection of my favourite hyperlinks.
 ---
 
 These are some of my favourite hyperlinks, collected during my perennial wanderings on the interwebs.
