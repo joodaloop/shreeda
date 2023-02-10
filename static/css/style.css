@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Raleway:wght@200;300;500;600&display=swap');
+
+body{
+  max-width: 38rem;
+  font-family: 'Poppins';
+  padding: 5% calc(50% - 19rem) 5% calc(50% - 19rem);
+  font-size: 16px;
+  color: black;
+  background: white;
+  font-weight: 300;
+}
+
+.note{
+  padding: 20px 40px 20px 0px;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+h1{
+  width: fit-content;
+  display: inline-block;
+  padding: 0px 0px;
+  margin: 10px 40px 20px 0px;
+/*  border: solid 1px black;*/
+  font-weight: 300;
+  font-size: 40px;
+}
+
+h2{
+  margin-top: 40px;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+h3{
+  margin-top: 40px;
+  font-size: 22px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+br{
+   margin: 5px 0;
+   line-height: 1em;
+   display: block;
+   content: "";
+}
+
+
+::selection{
+  color: rgba(255, 0, 0, 1);
+}
+
+h1 > a:hover{
+  text-decoration-line: none;
+  text-decoration-style: none;
+}
+
+nav{
+  display: inline-block;
+  vertical-align: text-bottom;
+/*  margin-bottom: 30px;*/
+/*  width: 29rem;*/
+/*  text-align: right;*/
+/*  border: solid 1px black;*/
+}
+
+nav > a{
+  font-weight: 400;
+  margin-right: 10px;
+}
+
+p{
+  font-family: 'Raleway';
+  line-height: 1.6em;
+  margin: 20px 0px;
+   font-weight: 300;
+  
+}
+
+li{
+  font-family: 'Raleway';
+  line-height: 1.6em;
+  margin: 15px 0px;
+  font-weight: 300;
+}
+
+pre{
+  font-family: 'Raleway';
+  line-height: 1.45em;
+  margin: 30px 0px;
+  font-size: inherit;
+    font-weight: 300;
+}
+
+main{
+  margin-top: 40px;
+}
+
+a{  color: inherit;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  display: inline-block;
+
+}
+
+a:hover{
+  color: red;
+    text-decoration-style: dotted;
+   text-decoration-line: underline;
+   text-decoration-color: red;
+/*   border-bottom: 0.5px solid red;*/
+}
+
+.is-active {
+   color: red;
+    text-decoration-style: dotted;
+   text-decoration-line: underline;
+   text-decoration-color: red;
+}
+
+b{
+  font-weight: 500;
+}
+
+.quote{
+  margin-top: 5em;
+}
+
+@media only screen and (max-width: 700px){
+
+  body{
+    padding: 5% 5%;
+  width: 90%;
+  font-size: 14px;
+
+  }
+
+  .note{
+    font-size: 16px;
+    padding-right: 15px;
+  }
+}

@@ -1,0 +1,10 @@
+{{ define "main" }}
+<p> {{ .Content }} </p>
+
+    {{ range .Pages }}
+
+<div class=note> <a href="{{ .Permalink }}"> /{{ .Params.urlTitle }} </a> </div>
+
+    {{ end }}
+
+{{ end }}

@@ -1,0 +1,14 @@
+{{ define "main" }} 
+        
+         {{ if (eq .Params.showTitle false) }}
+
+          {{ else }}
+           <h2> {{ .Title }} </h2>
+           
+          {{ end }}
+         
+          {{ .Content }}
+     
+        </div>
+        
+{{ end }}

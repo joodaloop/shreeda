@@ -1,0 +1,84 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "collison"
+pluralizelisttitles = false
+
+[params]
+relativeURLs = true
+contentdir = "content"
+mobileFriendly = true
+fontFamily = "Helvetica"
+fontLink = "https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Vesper+Libre:wght@400;500;700&display=swap"
+themeColor = "#e30f00"
+specialColor = "darkblue"
+
+
+
+[menu]
+[[menu.nav]]
+  name = 'notes'
+  url = '/notes'
+
+[[menu.nav]]
+  name = 'links'
+  url = '/pages/links'
+
+[[menu.nav]]
+  name = 'about'
+  url = '/pages/about'
+
+
+
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+  [markup.asciidocExt]
+    backend = 'html5'
+    extensions = []
+    failureLevel = 'fatal'
+    noHeaderOrFooter = true
+    preserveTOC = false
+    safeMode = 'unsafe'
+    sectionNumbers = false
+    trace = false
+    verbose = false
+    workingFolderCurrent = false
+    [markup.asciidocExt.attributes]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      linkifyProtocol = 'https'
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = 'github'
+      wrapStandAloneImageWithinParagraph = true
+      [markup.goldmark.parser.attribute]
+        block = false
+        title = true
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'monokai'
+    tabWidth = 4
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
