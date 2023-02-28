@@ -26,13 +26,9 @@
         <p>  When I am introduced at social gatherings, the host or hostess usually says: "Hi, I want you to meet Philip Yaffe. He is a professional writer." I almost always get the same response: "Oh, really. What type of novels do you write?" In other words, people automatically associate the term "writer" with "literature," as if fiction were the only type of writing. It isn't. And for most ordinary people, such as myself, it is the least important, yet it always seems to take pride of place. </p> 
 
         <ol>
-          <li> <a href="https://meridian.mercury.com/tim-beiko">Tim Beiko</a> </li>
-          <li> <a href="https://shreeda.substack.com/p/internet-writer-workflows"> Internet Writer Workflows</a>
-          <li> <a href="https://meridian.mercury.com/how-jonathan-hillis-cabin-became-a-dao">How Jonathan Hillis' Cabin
-              Became a DAO</a> </li>
-          <li> <a href="https://meridian.mercury.com/dao-incorporation"> DAO Incorporation </a> </li>
-          <li> <a href="https://meridian.mercury.com/brian-flynn">Brian Flynn</a> </li>
-          <li> <a href="https://shreeda.substack.com/p/a-new-old-pattern-language ">A New Old Pattern Language</a> </li>
+          {{ range $.Site.Data.writing.writing }}
+          <li> <a href="{{ .url }}">{{ .name }}</a> </li> 
+          {{ end }}   
         </ol>
 
         <h2> BDFs3 </h2>
@@ -45,7 +41,7 @@
         <h2> On The Internet </h2>
         <table>
           <tr>
-            <td> Twitter: <a href=""> @freeshreeda </a> </td>
+            <td> Twitter: <a href="https://twitter.com/freeshreeda"> @freeshreeda </a> </td>
           </tr>
           <tr>
             <td> Farcaster: <a href=""> @shreeda </a> </td>
@@ -227,7 +223,7 @@
                         {{ .Title }}  {{ end }} 
                </big> </td>
           <td>  
-             <ul style="padding: 0px; padding-top: 0.5em; margin-block-end: 0px;"> 
+             <ul style="padding: 0px; padding-top: 0.6em; margin-block-end: 0px;"> 
                  {{ range $.Site.Pages }} {{ if in .Params.tags $name }} 
                  <li>
                           <a href="{{ .Permalink }}"> {{ .Title }} </a> {{ end }} 

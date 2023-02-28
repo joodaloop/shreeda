@@ -98,7 +98,7 @@
 
     ol>li {
       padding-left: 1.5em;
-      margin: 6px 0px;
+      margin: 10px 0px;
     }
 
     h1,
@@ -152,6 +152,10 @@
       text-decoration-style: solid;
     }
 
+    h3>a:hover {
+      text-shadow: 0px 0px 1px black;
+    }
+
     span {
       margin: 0px 20px 0px 0px;
       font-family: "Windsor";
@@ -202,7 +206,7 @@
 
     #main {
       max-width: 80%;
-      margin: 5% 10%;
+      margin: 3% 10%;
       font-size: 14px;
 
     }
@@ -244,7 +248,6 @@
     }
 
     footer>span {
-      width: 30%;
       display: inline-block;
       text-align: center;
       line-height: 1em;
@@ -253,7 +256,11 @@
 
     footer {
       width: calc(100%);
-      border-top: black 3px dashed;
+      border-top: black 2px dashed;
+       justify-content: space-evenly;
+      display: flex;
+      flex-basis: 100%;
+      flex-wrap: wrap;
     }
 
     #middle,
@@ -265,7 +272,7 @@
     #middle>p {
       display: inline-block;
       width: calc(90%);
-      padding-left: 7%;
+      padding-left: 5%;
     }
 
     figcaption {
