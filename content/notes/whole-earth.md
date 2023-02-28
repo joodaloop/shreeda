@@ -28,6 +28,22 @@ But the effect that a simple font change can have is oft-underrated, and the fir
 
 I've recently wondered whether I could just dispense with the coffee stuff and share the whole collection in some useful way. And I've been wondering how to get it all together. I tried Scrivener, so it could be a book and Roam, so it could be networked and modern and Obsidian, so it could look like a spaceship. But none of them seemed to stick. 
 
+![](/photos/wide.jpg)
+
+I've recently wondered whether I could just dispense with the coffee stuff and share the whole collection in some useful way. And I've been wondering how to get it all together. I tried Scrivener, so it could be a book and Roam, so it could be networked and modern and Obsidian, so it could look like a spaceship. But none of them seemed to stick.
+
+- sage
+- Be this eay
+- or not
+
+1. Be drowning-the-crystal-goblet
+2. Be square
+
+| Pattern | Thoughts & Ideas |
+|-|-|
+| Messiness | Imperfevt alignemtn and spacing |
+| Heirarchy | Blend of sans and serif to demarcate headings |
+
 ### a dry discipline
 
 But the effect that a simple font change can have is oft-underrated, and the first step in my process usually involves finding one that fits the vibe of the project. The idea that good typography should be "invisible" is a [flawed](https://practicaltypography.com/drowning-the-crystal-goblet.html) one. 
