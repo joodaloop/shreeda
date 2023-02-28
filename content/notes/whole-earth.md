@@ -1,5 +1,5 @@
 ---
-title: 'How To Make A Whole Earth Catalog'
+title: 'Making A Whole Earth Catalog'
 date: 2023-02-10
 urlTitle: test-note
 description: "I'm no professional. Insofar as I do care about good design, it is for the straightforward purpose of making things that are more beautiful than not."

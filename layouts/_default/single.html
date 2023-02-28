@@ -54,9 +54,11 @@
 
     #main{
       width: 100%;
-      margin: 3em 0%;
+      margin: 1em 0%;
       position: relative;
       overflow: hidden;
+      max-width: 80rem;
+      text-align: left;
     }
 
     h2{
@@ -83,14 +85,14 @@
      }
 
     p{
-      width: 75%;
+      width: 70%;
       line-height: 1.4em;
       clear: both;
       font-family: "Univers";
       font-size: 18px;
       margin: 1.2em 5%;
       position: relative;
-      padding-left: 30%;
+      padding-left: 24%;
     }
 
     h3{
@@ -100,6 +102,7 @@
       width: 95%;
       display: inline-block;
       font-weight: 400;
+      text-align: right;
     }
 
     /*p:nth-of-type(4n+3), p:nth-of-type(4n+4){
@@ -109,31 +112,31 @@
 
     h1{
       font-family: "Windsor";
-      font-size: 45px;
-      width: calc(70% - 40px);
+      font-size: 50px;
+      max-width: calc(70% - 40px);
       display: inline-block;
       margin: 0px;
       padding: 0px 40px 0px 0px;
     }
 
     .subtitle{
-      max-width: 29%;
+      max-width: calc(29% - 20px);
       display: inline-block;
       font-family: "Fruances";
       font-weight: 200;
       font-style: italic;
-      padding: 10px 0px;
+      padding: 10px 0px 10px 20px;
       vertical-align: top;
-      text-align: rights;
     }
 
     body{
-      padding: 40px 10%;
-      background: #F6ECE1;;
+      padding: 20px 10%;
+      background: #F6ECE1;
+      text-align: center;
     }
 
     .margin-note{
-      width: 30%;
+      width: 24%;
       display: block;
       position: relative;
       font-family: "Windsor";
@@ -143,6 +146,11 @@
       margin-bottom: -320px;
     }
 
+    #header{
+      width: 110%;
+      margin: 2rem -5%;
+      text-align: left;
+    }
 
   </style>
 
@@ -152,11 +160,13 @@
 
 <body>
 
-  <h1> {{ .Title }} </h1>
+  <div id=header>
+    <h1> {{ .Title }} </h1>
     <div class=subtitle> {{ .Description }} </div>
+  </div>
 
   <div id=main>
-
+    
     
 
    {{ .Content | markdownify | safeHTML }}
