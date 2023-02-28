@@ -1,2 +1,2 @@
-# gapat
-Hugo theme for gapat.io
+# shreeda
+Hugo theme for Shreeda Segan

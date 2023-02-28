@@ -1,14 +1,138 @@
-{{ define "main" }} 
-        
-         {{ if (eq .Params.showTitle false) }}
+<html>
 
-          {{ else }}
-           <h2> {{ .Title }} </h2>
-           
-          {{ end }}
-         
-          {{ .Content }}
-     
-        </div>
-        
-{{ end }}
+<head>
+  <title> Shreeda </title>
+
+  <style>
+    @font-face {
+      font-family: 'Windsor';
+      font-style: normal;
+      src: url('/fonts/Windsor-bold.ttf');
+      font-display: swap;
+      font-weight: 800;
+    }
+
+    @font-face {
+      font-family: 'Fruances';
+      font-style: italic;
+      src: url('/fonts/Fruances-thin.ttf');
+      font-display: swap;
+      font-weight: 200;
+    }
+
+    @font-face {
+      font-family: 'Windsor';
+      font-style: normal;
+      src: url('/fonts/Windsor.ttf');
+      font-display: swap;
+      font-weight: 200;
+    }
+
+    @font-face {
+      font-family: 'Univers';
+      font-style: normal;
+      src: url('/fonts/Univers-normal.otf');
+      font-display: swap;
+      font-weight: 200;
+    }
+
+    @font-face {
+      font-family: 'Univers';
+      font-style: normal;
+      src: url('/fonts/Univers-semi.ttf');
+      font-display: swap;
+      font-weight: 400;
+    }
+
+    @font-face {
+      font-family: 'Univers';
+      font-style: normal;
+      src: url('/fonts/Univers-bold.ttf');
+      font-display: swap;
+      font-weight: 600;
+    }
+
+    #main{
+      width: 80%;
+      margin: 3em 10%;
+      position: relative;
+    }
+
+    h3{
+      width: fit-content;
+      font-family: "Windsor";
+      z-index: 1;
+      color: white;
+      background: black;
+      padding: 1em 1em 1em 3em;
+      border-radius: 0px 2em 2em 0px;
+      position: relative;
+      float: left;
+      margin: 1em 0px;
+    }
+
+    h3::after{
+      content: " ";
+      border-top: solid 2px black;
+      display: inline-block;
+      position: absolute;
+      margin-top: 0.5em;
+      z-index: -1;
+      width: calc(70vw - 1em);
+     }
+
+    p{
+      width: 70%;
+      clear: both;
+      font-family: "Univers";
+      font-size: 18px;
+      margin: 1.2em 5%;
+      float: left;
+      position: relative;
+    }
+
+    p:nth-of-type(4n+3), p:nth-of-type(4n+4){
+      float: right;
+      padding-left: 30%;
+    }
+
+    h1{
+      font-family: "Windsor";
+      font-size: 45px;
+      width: calc(70% - 40px);
+      display: inline-block;
+      margin: 0px;
+      padding: 0px 40px 0px 0px;
+    }
+
+    .subtitle{
+      max-width: 29%;
+      display: inline-block;
+      font-family: "Fruances";
+      font-weight: 200;
+      font-style: italic;
+      padding: 10px 0px;
+      vertical-align: top;
+      text-align: rights;
+    }
+
+  </style>
+
+
+  </style>
+</head>
+
+<body>
+
+  <div id=main>
+
+    <h1> {{ .Title }} </h1>
+    <div class=subtitle> {{ .Description }} </div>
+
+   {{ .Content | markdownify | safeHTML }}
+
+  </div>
+
+</body>
+
+</html>

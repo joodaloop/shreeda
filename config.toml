@@ -1,27 +1,12 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Gapat"
+title = "Shreeda"
 pluralizelisttitles = false
 
 [params]
 relativeURLs = true
 contentdir = "content"
 mobileFriendly = true
-
-
-[menu]
-[[menu.nav]]
-  name = 'notes'
-  url = '/notes'
-
-[[menu.nav]]
-  name = 'links'
-  url = '/pages/links'
-
-[[menu.nav]]
-  name = 'about'
-  url = '/pages/about'
-
 
 
 [markup]

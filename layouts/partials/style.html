@@ -1,196 +1,389 @@
 <style>
+    @font-face {
+      font-family: 'Windsor';
+      font-style: normal;
+      src: url('/fonts/Windsor-bold.ttf');
+      font-display: swap;
+      font-weight: 800;
+    }
 
-@font-face {
-        font-family: 'Poppins';
-        font-style: normal;
-        src: url('/fonts/Poppins-Light.woff2') format('woff2');
-         font-display: swap;
-         font-weight: 300;
-      }
+    @font-face {
+      font-family: 'Fruances';
+      font-style: normal;
+      src: url('/fonts/Fruances-thin.ttf');
+      font-display: swap;
+      font-weight: 200;
+    }
 
-@font-face {
-        font-family: 'Poppins';
-        font-style: normal;
-        src: url('/fonts/Poppins-Regular.woff2') format('woff2');
-         font-display: swap;
-         font-weight: 400;
-      }
+    @font-face {
+      font-family: 'Windsor';
+      font-style: normal;
+      src: url('/fonts/Windsor.ttf');
+      font-display: swap;
+      font-weight: 200;
+    }
 
-@font-face {
-        font-family: 'Poppins';
-        font-style: normal;
-        src: url('/fonts/Poppins-Bold.woff2') format('woff2');
-         font-display: swap;
-         font-weight: 600;
-      }
+    @font-face {
+      font-family: 'Univers';
+      font-style: normal;
+      src: url('/fonts/Univers-normal.otf');
+      font-display: swap;
+      font-weight: 200;
+    }
 
-@font-face {
-        font-family: 'Raleway';
-        font-style: normal;
-        src: url('/fonts/Raleway-Light.woff2') format('woff2');
-         font-display: swap;
-         font-weight: 300;
-      }
+    @font-face {
+      font-family: 'Univers';
+      font-style: normal;
+      src: url('/fonts/Univers-semi.ttf');
+      font-display: swap;
+      font-weight: 400;
+    }
 
-@font-face {
-        font-family: 'Raleway';
-        font-style: normal;
-        src: url('/fonts/Raleway-Medium.woff2') format('woff2');
-         font-display: swap;
-         font-weight: 500;
-      }
+    @font-face {
+      font-family: 'Univers';
+      font-style: normal;
+      src: url('/fonts/Univers-bold.ttf');
+      font-display: swap;
+      font-weight: 600;
+    }
 
-@font-face {
-        font-family: 'Raleway';
-        font-style: normal;
-        src: url('/fonts/Raleway-Bold.woff2') format('woff2');
-         font-display: swap;
-         font-weight: 600;
-      }
+  </style>
 
+  <style>
+    body {
+      background: #EDE0D2;
+      text-align: center;
+      color: #444;
+      padding: 20px;
+      width: calc(100% - 40px);
+      position: relative;
+    }
 
-body{
-  max-width: 38rem;
-  font-family: 'Poppins';
-  padding: 5% calc(50% - 19rem) 5% calc(50% - 19rem);
-  font-size: 16px;
-  color: black;
-  background: white;
-  font-weight: 300;
-}
+    body>* {
+      text-align: initial;
+      font-family: "Univers";
+    }
 
-.note{
-  padding: 20px 40px 20px 0px;
-  font-size: 20px;
-  font-weight: 600;
-  display: inline-block;
-}
+    p {
+      font-family: "Univers";
+      font-size: 14px;
+      line-height: 1.25em;
+    }
 
-h1{
-  width: fit-content;
-  display: inline-block;
-  padding: 0px 0px;
-  margin: 10px 40px 20px 0px;
-/*  border: solid 1px black;*/
-  font-weight: 300;
-  font-size: 40px;
-}
+    big {
+      font-size: 1.4em;
+    }
 
-h2{
-  margin-top: 40px;
-  font-size: 30px;
-  margin-bottom: 0px;
-}
+    ul {
+      list-style-type: none;
+      margin-block-start: 0px;
+      padding: 5px 0px;
+    }
 
-h3{
-  margin-top: 40px;
-  font-size: 22px;
-  margin-bottom: 0px;
-  padding: 0px;
-}
+    ol {
+      margin-block-start: 0px;
+      padding-inline-start: 1.5em;
+      padding-bottom: 6px;
+    }
 
-br{
-   margin: 5px 0;
-   line-height: 1em;
-   display: block;
-   content: "";
-}
+    li {
+      font-size: 14px;
+    }
 
+    ul>li {
+      text-indent: 0em;
+      padding-left: 0em;
+      margin: 0px 0px 15px 0px;
+    }
 
-::selection{
-  color: rgba(255, 0, 0, 1);
-}
+    ol>li {
+      padding-left: 1.5em;
+      margin: 6px 0px;
+    }
 
-h1 > a:hover{
-  text-decoration-line: none;
-  text-decoration-style: none;
-}
+    h1,
+    h2 {
+      margin: 2px 0px;
+      font-family: "Windsor";
+    }
 
-nav{
-  display: inline-block;
-  vertical-align: text-bottom;
-/*  margin-bottom: 30px;*/
-/*  width: 29rem;*/
-/*  text-align: right;*/
-/*  border: solid 1px black;*/
-}
+    h1 {
+      font-size: 32px;
+      color: #111;
+    }
 
-nav > a{
-  font-weight: 400;
-  margin-right: 10px;
-}
+    h2 {
+      font-size: 26px;
+      margin-top: 25px;
+    }
 
-p{
-  font-family: 'Raleway';
-  line-height: 1.6em;
-  margin: 20px 0px;
-   font-weight: 300;
-  
-}
+    h3 {
+      font-size: 22px;
+      font-family: "Windsor";
+      margin: 20px 0px 10px 0px;
+    }
 
-li{
-  font-family: 'Raleway';
-  line-height: 1.6em;
-  margin: 15px 0px;
-  font-weight: 300;
-}
+    h4 {
+      font-family: "Univers";
+      font-weight: 400;
+      font-size: 1.6em;
+      margin: 1.5em 0px -5px 0px;
+    }
 
-pre{
-  font-family: 'Raleway';
-  line-height: 1.45em;
-  margin: 30px 0px;
-  font-size: inherit;
-    font-weight: 300;
-}
+    img {
+      width: 100%;
+      border: solid 1px #444;
+      filter: grayscale(100%);
+    }
 
-main{
-  margin-top: 40px;
-}
+    a {
+      color: #444;
+      text-decoration: underline;
+      text-decoration-style: dashed;
+      font-weight: 600;
+    }
 
-a{  color: inherit;
-  font-weight: 600;
-  text-decoration: none;
-  transition: all 0.4s ease;
-  display: inline-block;
+    a:hover {
+      text-shadow: 0px 0px 0.5px #000;
+      text-decoration-style: solid;
+    }
 
-}
+    h3>a {
+      text-decoration-style: solid;
+    }
 
-a:hover{
-  color: red;
-    text-decoration-style: dotted;
-   text-decoration-line: underline;
-   text-decoration-color: red;
-/*   border-bottom: 0.5px solid red;*/
-}
+    span {
+      margin: 0px 20px 0px 0px;
+      font-family: "Windsor";
+      font-weight: 200;
+      line-height: 2em;
+    }
 
-.is-active {
-   color: red;
-    text-decoration-style: dotted;
-   text-decoration-line: underline;
-   text-decoration-color: red;
-}
+    .big-picture {
+      width: calc(100% - 70px);
+      display: inline-block;
+      margin: 10px;
+      padding: 20px 0px 0px 20px;
+      border-left: solid 3px black;
+      border-top: solid 3px black;
+    }
 
-b{
-  font-weight: 500;
-}
+    .small-picture {
+      width: calc(28%);
+      height: fit-content;
+      display: inline-block;
+      vertical-align: top;
+      margin: 10px 0px;
+    }
 
-.quote{
-  margin-top: 5em;
-}
+    #left {
+      display: inline-block;
+      width: calc(29%);
+    }
 
-@media only screen and (max-width: 700px){
+    #right {
+      display: inline-block;
+      width: 70%;
+      vertical-align: top;
+    }
 
-  body{
-    padding: 5% 5%;
-  width: 90%;
-  font-size: 14px;
+    .right-column {
+      width: calc(49% - 40px);
+      display: inline-block;
+      vertical-align: top;
+      margin: 0px;
+      padding: 0px 20px;
+    }
 
-  }
+    .left-column {
+      width: calc(90%);
+      padding: 10px 0px;
+    }
 
-  .note{
-    font-size: 16px;
-    padding-right: 15px;
-  }
-}
+    #main {
+      max-width: 80%;
+      margin: 5% 10%;
+      font-size: 14px;
 
-</style>
+    }
+
+    aside {
+      width: calc(90% - 20px);
+      padding: 10px;
+      margin: 5px 5%;
+      font-size: 0.9em;
+    }
+
+    .quote {
+      font-family: "Fruances";
+      font-weight: 200;
+      font-style: italic;
+      font-size: 1.1em;
+      line-height: 1.3em;
+      margin: 10px 0px;
+    }
+
+    td,
+    th {
+      font-family: "Univers";
+      padding: 5px 0px;
+    }
+
+    /*.two-col > thead th:nth-child(1){
+      width: 50%;
+    }*/
+
+    table {
+      width: 100%;
+      text-align: left;
+      margin: 10px 0px;
+    }
+
+    td {
+      font-size: 14px;
+    }
+
+    footer>span {
+      width: 30%;
+      display: inline-block;
+      text-align: center;
+      line-height: 1em;
+      padding-top: 30px;
+    }
+
+    footer {
+      width: calc(100%);
+      border-top: black 3px dashed;
+    }
+
+    #middle,
+    #holder {
+      width: 100%;
+      margin: 20px 0px;
+    }
+
+    #middle>p {
+      display: inline-block;
+      width: calc(100% - 350px);
+    }
+
+    figcaption {
+      margin-top: 5px;
+      font-weight: 200;
+      text-align: center;
+    }
+
+    figure {
+      width: 100%;
+      padding: 0%;
+      margin: 0%;
+    }
+
+    .rounded {
+      border-radius: 12px;
+      border: solid 1px #444;
+      max-width: 300px;
+      padding: 20px;
+      margin: 10px 0px;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    #holder {
+      justify-content: space-between;
+      display: flex;
+      flex-basis: 100%;
+      flex-wrap: wrap;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      padding: 20px 0%;
+    }
+
+    .small-box {
+      width: 28%;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .small-box>p {
+      text-align: justify;
+    }
+
+    small {
+      font-size: 0.9em;
+      line-height: 1.35em;
+    }
+
+    .bigger {
+      font-size: 1.2em;
+    }
+
+    .shelf {
+      width: 100%;
+      overflow: auto;
+      white-space: nowrap;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      padding-bottom: 5px;
+    }
+
+    .book {
+      display: inline-block;
+      border: solid 1px black;
+      padding: 1px;
+      margin-right: 5px;
+
+    }
+
+    .book > a > img{
+      height: 160px;
+      width: auto;
+      border: 0px;
+      transition: 0.3s all ease;
+    }
+
+    .book > a > img:hover{
+      filter: grayscale(0%);
+    }
+
+    .wide>thead>tr>th {
+      font-family: "Windsor";
+      font-size: 26px;
+      padding: 10px;
+      border-bottom: dotted 1px #555;
+    }
+
+    .wide {
+      width: 82%;
+      border: dashed 2px black;
+      border-left: none;
+      margin-bottom: 40px;
+      display: inline-table;
+    }
+
+    .wide td {
+      padding: 20px 15px 0px 15px;
+      vertical-align: top;
+    }
+
+    .wide td:nth-child(1) {
+      width: 26%;
+    }
+
+    .wide td:nth-child(2) {
+      width: 30%;
+    }
+
+    .wide big {
+      font-family: "Windsor";
+      font-weight: 200;
+    }
+
+    #blogroll {
+      text-align: right;
+      width: calc(17% - 20px);
+      display: inline-block;
+      vertical-align: top;
+      padding: 0px 0px 0px 20px;
+    }
+  </style>
