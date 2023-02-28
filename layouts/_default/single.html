@@ -53,48 +53,59 @@
     }
 
     #main{
-      width: 80%;
-      margin: 3em 10%;
+      width: 100%;
+      margin: 3em 0%;
       position: relative;
+      overflow: hidden;
     }
 
-    h3{
+    h2{
       width: fit-content;
       font-family: "Windsor";
       z-index: 1;
       color: white;
       background: black;
-      padding: 1em 1em 1em 3em;
+      padding: 1em 2em 1em 3em;
       border-radius: 0px 2em 2em 0px;
       position: relative;
       float: left;
       margin: 1em 0px;
     }
 
-    h3::after{
+    h2::after{
       content: " ";
       border-top: solid 2px black;
       display: inline-block;
       position: absolute;
       margin-top: 0.5em;
       z-index: -1;
-      width: calc(70vw - 1em);
+      width: calc(70vw);
      }
 
     p{
-      width: 70%;
+      width: 75%;
+      line-height: 1.4em;
       clear: both;
       font-family: "Univers";
       font-size: 18px;
       margin: 1.2em 5%;
-      float: left;
       position: relative;
-    }
-
-    p:nth-of-type(4n+3), p:nth-of-type(4n+4){
-      float: right;
       padding-left: 30%;
     }
+
+    h3{
+      font-family: "Univers";
+      font-size: 36px;
+      margin-left: 5%;
+      width: 95%;
+      display: inline-block;
+      font-weight: 400;
+    }
+
+    /*p:nth-of-type(4n+3), p:nth-of-type(4n+4){
+      float: right;
+      margin-left: 30%;
+    }*/
 
     h1{
       font-family: "Windsor";
@@ -116,6 +127,23 @@
       text-align: rights;
     }
 
+    body{
+      padding: 40px 10%;
+      background: #F6ECE1;;
+    }
+
+    .margin-note{
+      width: 30%;
+      display: block;
+      position: relative;
+      font-family: "Windsor";
+      font-weight: 200;
+      margin-left: 2%;
+      height: 300px;
+      margin-bottom: -320px;
+    }
+
+
   </style>
 
 
@@ -124,10 +152,12 @@
 
 <body>
 
+  <h1> {{ .Title }} </h1>
+    <div class=subtitle> {{ .Description }} </div>
+
   <div id=main>
 
-    <h1> {{ .Title }} </h1>
-    <div class=subtitle> {{ .Description }} </div>
+    
 
    {{ .Content | markdownify | safeHTML }}
 

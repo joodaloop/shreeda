@@ -6,4 +6,6 @@ description: "First line from Alan Ginsberg's Howl."
 tags: [ "economics", "protocols", "governance"]
 ---
 
-I saw the best minds of my generation destroyed by madness.
+
+
+## I saw the best minds of my generation destroyed by madness.
