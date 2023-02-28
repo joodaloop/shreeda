@@ -4,28 +4,32 @@ img = "rectangle-book.jpg"
 
 [[firstshelf]]
 img = "pattern.jpg"
-link = "joodaloop.com"
 
 [[firstshelf]]
 img = "tempo.jpg"
+link = "https://www.ribbonfarm.com/tempo/"
+
 
 [[firstshelf]]
 img = "rectangle-book.jpg"
 
 [[firstshelf]]
 img = "tempo.jpg"
+link = "https://www.ribbonfarm.com/tempo/"
 
 [[firstshelf]]
 img = "rectangle-book.jpg"
 
 [[firstshelf]]
 img = "tempo.jpg"
+link = "https://www.ribbonfarm.com/tempo/"
 
 
 
 
 [[secondshelf]]
 img = "tempo.jpg"
+link = "https://www.ribbonfarm.com/tempo/"
 
 [[secondshelf]]
 img = "rectangle-book.jpg"
@@ -35,6 +39,7 @@ img = "pattern.jpg"
 
 [[secondshelf]]
 img = "tempo.jpg"
+link = "https://www.ribbonfarm.com/tempo/"
 
 [[secondshelf]]
 img = "rectangle-book.jpg"
