@@ -1,8 +1,7 @@
 ---
 title: 'Desiderata'
 date: 2023-02-10
-urlTitle: desiderata
-description: poetry
+description: "Poetry, but good."
 tags: ["design"]
 ---
 

@@ -26,3 +26,8 @@ baseURL = "/"
   for = "/photos/*"
     [headers.values]
     Cache-Control = "public, immutable, max-age=31536000"
+
+[[headers]]
+  for = "/css/*"
+    [headers.values]
+    Cache-Control = "public, immutable, max-age=31536000"

@@ -57,6 +57,7 @@
       padding: 20px;
       width: calc(100% - 40px);
       position: relative;
+      margin: 0px;
     }
 
     body>* {
@@ -134,6 +135,7 @@
       width: 100%;
       border: solid 1px #444;
       filter: grayscale(100%);
+      box-sizing: border-box;
     }
 
     a {
@@ -204,11 +206,10 @@
       padding: 10px 0px;
     }
 
-    #main {
+    main {
       max-width: 80%;
-      margin: 3% 10%;
+      padding: 3% 10%;
       font-size: 14px;
-
     }
 
     aside {
@@ -271,8 +272,8 @@
 
     #middle>p {
       display: inline-block;
-      width: calc(90%);
-      padding-left: 5%;
+      width: calc(95%);
+      padding-left: 2.5%;
     }
 
     figcaption {
@@ -394,4 +395,79 @@
       vertical-align: top;
       padding: 0px 0px 0px 20px;
     }
+
+    #pottery:hover{
+      cursor: pointer;
+    }
+
+
+     @media screen and (max-width: 1200px) {
+
+      main{
+        padding: 3% 5%;
+        max-width: 100%;
+      }
+
+     }
+
+     @media screen and (max-width: 950px) {
+
+      main{
+        padding: 3% 2%;
+        max-width: 100%;
+      }
+
+      .right-column{
+        padding: 0px 10px;
+        width: calc(49% - 20px);
+      }
+
+      .left-column{
+        width: 95%;
+      }
+
+     }
+
+     @media screen and (max-width: 700px) {
+
+      #left, #right, .right-column, .left-column {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+      }
+
+      .right-column, .left-column{
+        margin: 1em 0rem;
+      }
+
+      main{
+        padding: 3% 0%;
+        max-width: 100%;
+      }
+
+      #typeset{
+        display: none;
+      }
+
+      .wide{
+        width: 100%;
+      }
+
+      #blogroll{
+        width: 100%;
+        text-align: left;
+        padding: 0px;
+        text-align: center;
+      }
+
+      .table-holder{
+        overflow-x: scroll;
+      }
+
+      .small-box{
+        width: 100%;
+        margin-bottom: 2em;
+      }
+
+     }
   </style>
