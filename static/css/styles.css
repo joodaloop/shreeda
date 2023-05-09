@@ -1,15 +1,15 @@
 @font-face {
       font-family: 'Windsor';
       font-style: normal;
-      src: url('/fonts/Windsor-bold.ttf');
+      src: url('/fonts/Windsor-bold.woff2') format('woff2');
       font-display: swap;
       font-weight: 800;
     }
 
     @font-face {
       font-family: 'Fruances';
-      font-style: italic;
-      src: url('/fonts/Fruances-thin.ttf');
+      font-style: normal;
+      src: url('/fonts/Fruances.woff2') format('woff2');
       font-display: swap;
       font-weight: 200;
     }
@@ -17,23 +17,23 @@
     @font-face {
       font-family: 'Windsor';
       font-style: normal;
-      src: url('/fonts/Windsor.ttf');
+      src: url('/fonts/Windsor.woff2') format('woff2');
       font-display: swap;
       font-weight: 200;
     }
 
-    @font-face {
+    /*@font-face {
       font-family: 'Univers';
       font-style: normal;
-      src: url('/fonts/Univers-normal.otf');
+      src: url('/fonts/Univers-normal.woff2') format('woff2');
       font-display: swap;
       font-weight: 200;
-    }
+    }*/
 
     @font-face {
       font-family: 'Univers';
       font-style: normal;
-      src: url('/fonts/Univers-semi.ttf');
+      src: url('/fonts/Univers-semi.woff2') format('woff2');
       font-display: swap;
       font-weight: 400;
     }
@@ -41,7 +41,7 @@
     @font-face {
       font-family: 'Univers';
       font-style: normal;
-      src: url('/fonts/Univers-bold.ttf');
+      src: url('/fonts/Univers-bold.woff2') format('woff2');
       font-display: swap;
       font-weight: 600;
     }
@@ -149,7 +149,6 @@
     td{
       font-size: 1.1rem;
       font-family: "Univers";
-      font-weight: 200;
     }
 
     h1{
