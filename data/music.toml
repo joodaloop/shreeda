@@ -1,16 +1,12 @@
-blurb = "Here are some of my favorite albums:"
+blurb = "Music I like, and why. favourite albums"
 
 
 [[artists]]
-url = "https://en.wikipedia.org/wiki/Since_I_Left_You"
-name = "Since I Left You"
-about = "If you're looking for the canonical example of sampling in electronic music, this is it."
+url = "joodaloop.com"
+name = "Skrillex"
+about = "fsgsgweg"
 
 
-[[artists]]
-url = ""
-name = ""
-about = ""
 
 
 

@@ -1,6 +1,6 @@
 
 [[firstshelf]]
-img = "seven-nights.jpg"
+img = "rectangle-book.jpg"
 
 [[firstshelf]]
 img = "pattern.jpg"
@@ -11,40 +11,41 @@ link = "https://www.ribbonfarm.com/tempo/"
 
 
 [[firstshelf]]
-img = "burnout-society.jpg"
+img = "rectangle-book.jpg"
 
 [[firstshelf]]
-img = "tao-te-ching.jpg"
-
-
-[[firstshelf]]
-img = "the-gift-of-therapy.jpg"
+img = "tempo.jpg"
+link = "https://www.ribbonfarm.com/tempo/"
 
 [[firstshelf]]
-img = "the-sovereign-individual.jpg"
+img = "rectangle-book.jpg"
+
+[[firstshelf]]
+img = "tempo.jpg"
 link = "https://www.ribbonfarm.com/tempo/"
 
 
 
 
 [[secondshelf]]
-img = "anthology.jpg"
-link = "http://www.notnothing.ooo/books/perry.html"
+img = "tempo.jpg"
+link = "https://www.ribbonfarm.com/tempo/"
 
 [[secondshelf]]
-img = "in-praise-of-shadows.jpg"
+img = "rectangle-book.jpg"
 
 [[secondshelf]]
-img = "everlasting-meal.jpg"
+img = "pattern.jpg"
 
 [[secondshelf]]
-img = "cats-cradle.jpg"
+img = "tempo.jpg"
+link = "https://www.ribbonfarm.com/tempo/"
 
 [[secondshelf]]
-img = "diaries-of-exile.jpg"
+img = "rectangle-book.jpg"
 
 [[secondshelf]]
-img = "flow.jpg"
+img = "pattern.jpg"
 
 
 
