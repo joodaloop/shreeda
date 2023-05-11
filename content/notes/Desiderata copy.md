@@ -1,8 +1,7 @@
 ---
 title: 'Designing governments in 2023'
 date: 2023-02-10
-urlTitle: test-note
-description: "poetryj i e erge"
+description: "is this even a good idea?"
 tags: ["governance"]
 ---
 

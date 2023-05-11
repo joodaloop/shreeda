@@ -1,10 +1,38 @@
 {{ define "main" }}
+
+<style>
+
+    body{
+        font-family: Windsor;
+    }
+
+    .note{
+      margin: 1rem 0rem;
+      font-family: Windsor;
+    }
+
+    h1.list{
+      margin-top: 5rem;
+    }
+</style>
+
+<h1 class=list> {{ .Title }} </h1>
+
 <p> {{ .Content }} </p>
+<br>
+<br>
 
     {{ range .Pages }}
 
-<div class=note> <a href="{{ .Permalink }}"> /{{ .Params.urlTitle }} </a> </div>
+<div class=note> 
+    <a href="{{ .Permalink }}"> {{ .Params.Title }} </a>
+</div>
 
     {{ end }}
+<br>
+<br>
+<br>
+<br>
+Go back <a href="/"> home. </a>
 
 {{ end }}

@@ -1,46 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title> {{ .Title }} • Shreeda Segan </title>
+  <title> Shreeda Segan </title>
   <meta name="description" content="{{ .Description }}">
 
-  <link rel="apple-touch-icon" sizes="180x180"  href="/photos/card.jpg"> 
-  <link rel="icon" type="image/png" sizes="32x32" href="/photos/card.jpg"> 
-  <link rel="icon" type="image/png" sizes="16x16"  href="/photos/card.jpg"> 
+  <link rel="apple-touch-icon" sizes="180x180"  href="/photos/favicon.ico"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="/photos/favicon.ico"> 
+  <link rel="icon" type="image/png" sizes="16x16"  href="/photos/favicon.ico"> 
 
   <!-- Facebook Open Graph tags -->
 <meta property="og:url" content="https://shreedasegan.com" />
 <meta property="og:title" content="{{ .Title }}" />
 <meta property="og:description" content="{{ .Description }}" />
-<meta property="og:image" content="https://shreedasegan.com/photos/card.jpg" />
+<meta property="og:image" content="https://shreedasegan.com/photos/favicon.ico" />
 
 <!-- Twitter Card (large image card) tags -->
 <meta name="twitter:card" content="summary">
 <meta name="twitter:creator" content="@freeshreeda">
 <meta name="twitter:title" content="{{ .Title }}">
 <meta name="twitter:description" content="{{ .Description }}" />
-<meta name="twitter:image" content="https:/shreedesagan.com/photos/card.jpg" />
+<meta name="twitter:image" content="https:/shreedesagan.com/photos/favicon.ico" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="preload" as="font" type="font/woff2" href="/fonts/Raleway-Bold.woff2" crossorigin/>
-<link rel="preload" as="font" type="font/woff2" href="/fonts/Raleway-Light.woff2" crossorigin/>
-<link rel="preload" as="font" type="font/woff2" href="/fonts/Poppins-Light.woff2" crossorigin/>
-<link rel="preload" as="font" type="font/woff2" href="/fonts/Poppins-Regular.woff2" crossorigin/>
-<link rel="preload" as="font" type="font/woff2" href="/fonts/Poppins-Bold.woff2" crossorigin/>
+<link rel="preload" as="font" type="font/woff2" href="/fonts/Windsor-bold.woff2" crossorigin/>
+<link rel="preload" as="font" type="font/woff2" href="/fonts/Fruances.woff2" crossorigin/>
+<link rel="preload" as="font" type="font/woff2" href="/fonts/Windsor.woff2" crossorigin/>
+<link rel="preload" as="font" type="font/woff2" href="/fonts/Univers-semi.woff2" crossorigin/>
+<link rel="preload" as="font" type="font/woff2" href="/fonts/Univers-bold.woff2" crossorigin/>
+
+<link rel="stylesheet" type="text/css" href="/css/styles.css" />
 
 </head>
 
-<body>
+  
 
-<main>
+
+<body>
 
         {{- block "main" . }}
         {{- end }}
-        
-</main>
         
 <script>
   // instant.page script

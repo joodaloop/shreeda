@@ -1,0 +1,256 @@
+@font-face {
+      font-family: 'Windsor';
+      font-style: normal;
+      src: url('/fonts/Windsor-bold.woff2') format('woff2');
+      font-display: swap;
+      font-weight: 800;
+    }
+
+    @font-face {
+      font-family: 'Fruances';
+      font-style: normal;
+      src: url('/fonts/Fruances.woff2') format('woff2');
+      font-display: swap;
+      font-weight: 200;
+    }
+
+    @font-face {
+      font-family: 'Windsor';
+      font-style: normal;
+      src: url('/fonts/Windsor.woff2') format('woff2');
+      font-display: swap;
+      font-weight: 200;
+    }
+
+    /*@font-face {
+      font-family: 'Univers';
+      font-style: normal;
+      src: url('/fonts/Univers-normal.woff2') format('woff2');
+      font-display: swap;
+      font-weight: 200;
+    }*/
+
+    @font-face {
+      font-family: 'Univers';
+      font-style: normal;
+      src: url('/fonts/Univers-semi.woff2') format('woff2');
+      font-display: swap;
+      font-weight: 400;
+    }
+
+    @font-face {
+      font-family: 'Univers';
+      font-style: normal;
+      src: url('/fonts/Univers-bold.woff2') format('woff2');
+      font-display: swap;
+      font-weight: 600;
+    }
+
+    main{
+      width: 60%;
+      margin: 5em 0% 1em 40%;
+      position: relative;
+      max-width: 80rem;
+      text-align: left;
+    }
+
+    h2{
+      font-family: "Windsor";
+      z-index: 1;
+      color: white;
+      background: black;
+      padding: 1em 2em 1em 2em;
+      border-radius: 0px 2em 2em 0px;
+      position: relative;
+      float: left;
+      margin: 0.5em 0px 1.5em -66%;
+      width: fit-content;
+      line-height: 1.5em;
+    }
+
+    h2::after{
+      content: " ";
+      border-top: solid 2px black;
+      margin-left: calc(-100% + 5.5rem);
+      display: inline-block;
+      position: absolute;
+      margin-top: 0.5em;
+      z-index: -1;
+      width: 83vw;
+     }
+
+    p{
+      line-height: 1.4em;
+      clear: both;
+      font-family: "Univers";
+      font-size: 18px;
+      margin: 0% 0% 2em 0%;
+      position: relative;
+    }
+
+    h3{
+      font-family: "Univers";
+      font-variant: small-caps;
+      font-size: 36px;
+      padding: 0px;
+      margin: 1.3em 0em 1em 0em;
+      width: 99%;
+      display: inline-block;
+      font-weight: 400;
+      text-align: right;
+    }
+
+    h4{
+      font-family: Univers;
+      font-size: 1.4rem;
+      margin-top: 2.5em;
+    }
+
+    /*p:nth-of-type(4n+3), p:nth-of-type(4n+4){
+      float: right;
+      margin-left: 30%;
+    }*/
+
+    img{
+      width: 100%;
+      margin-left: 0%;
+    }
+
+    table{
+      text-align: left;
+      margin-top: -1em;
+      border-spacing: 20px;
+      overflow: scroll;
+      display: block;
+    }
+
+    ul, ol{
+      margin: 2em 0em;
+      font-size: 18px;
+      font-family: 'Univers';
+    }
+
+    li{
+      margin: 0.8em 0em;
+    }
+
+    thead{
+      font-family: "Windsor";
+      font-size: 1.5em;
+    }
+
+    th {
+      /*text-decoration: underline;
+      text-decoration-style: solid 2px black;
+      text-underline-offset: 4px;*/
+      border-bottom: solid 2px black;
+    }
+
+    td{
+      font-size: 1.1rem;
+      font-family: "Univers";
+    }
+
+    h1{
+      font-family: "Windsor";
+      font-size: 50px;
+      max-width: calc(70% - 40px);
+      display: inline-block;
+      margin: 0px;
+      padding: 0px 40px 0px 0px;
+    }
+
+    .subtitle{
+      max-width: calc(29% - 20px);
+      width: 100%;
+      display: inline-block;
+      font-family: "Fruances";
+      font-weight: 200;
+      font-style: italic;
+      padding: 10px 0px 10px 20px;
+      vertical-align: top;
+      line-height: 1.5em;
+    }
+
+    body{
+      padding: 20px 7%;
+      background: #F6ECE1;
+      text-align: center;
+      font-size: 18px;
+      margin: 0px;
+    }
+
+    .sidenote{
+      width: 50%;
+      display: block;
+      position: absolute;
+      font-family: "Windsor";
+      font-weight: 200;
+      margin-left: -60%;
+    }
+
+    #header{
+      width: 100%;
+      margin: 2rem 0%;
+      text-align: left;
+    }
+
+     a {
+      color: #444;
+      text-decoration: underline;
+      text-decoration-style: dashed;
+      font-weight: 600;
+      text-underline-offset: 2px;
+    }
+
+    a:hover {
+      text-shadow: 0px 0px 0.5px #000;
+      text-decoration-style: solid;
+    }
+
+
+     @media screen and (max-width: 800px) {
+
+      main{
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 4rem;
+        overflow: hidden;
+      }
+
+      .sidenote{
+        display: none;
+      }
+
+      body{
+        padding: 20px 5%;
+        background: #F6ECE1;
+        text-align: center;
+        font-size: 18px;
+        margin: 0px;
+      }
+
+      h1, .subtitle{
+        max-width: 100%;
+        padding: 0px;
+      }
+
+      h2{
+        margin-left: 0px;
+      }
+
+      .subtitle{
+        margin-top: 2rem;
+      }
+
+      p{
+        margin: 0rem 0px 2rem 0rem;
+      }
+
+      h2::after{
+        margin-top: 0.5em;
+        z-index: -1;
+        width: 100vw;
+       }
+
+    }
