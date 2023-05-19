@@ -1,28 +1,23 @@
-
-[[writing]]
-url = "https://shreeda.substack.com/p/internet-writer-workflows"
-name = "Internet Writer Workflows"
-
 [[writing]]
 url = "https://meridian.mercury.com/tim-beiko"
-name = "Tim Beiko"
+name = "Tim Beiko on Ethereum's moonshot"
 
 [[writing]]
 url = "https://meridian.mercury.com/how-jonathan-hillis-cabin-became-a-dao"
-name = "How Jonathan Hillis' Cabin Became a DAO"
+name = "How Jonathan Hillis' cabin became a DAO"
 
 [[writing]]
 url = "https://meridian.mercury.com/dao-incorporation"
-name = "DAO Incorporation"
+name = "Misadventures in DAO incorporation"
+
+[[writing]]
+url = "https://meridian.mercury.com/chase-chapman"
+name = "Chase Chapman: inhabiting the internet"
 
 [[writing]]
 url = "https://meridian.mercury.com/brian-flynn"
-name = "Brian Flynn"
+name = "Brian Flynn, wayfinding in web3"
 
 [[writing]]
-url = "https://shreeda.substack.com/p/a-new-old-pattern-language"
-name = "A New Old Pattern Language"
-
-
-
-
+url = "https://meridian.mercury.com/tuomas-artman"
+name = "Linear’s Tuomas Artman, designing surprising tools"
